@@ -12,8 +12,6 @@ $$
 u(e) = 0, \quad u'(e) = \frac{1}{e}
 $$
 
-### Analytical Solution
-
 The exact solution is given by:
 
 $$
