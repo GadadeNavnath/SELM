@@ -3,6 +3,7 @@
 This repository contains reproducibility materials for the paper:
 
 **“Spectral Extreme Learning Machine”**
+
 **Authors:** Gadade Navnath Ankush and Sivaram Ambikasaran
 
 ---
