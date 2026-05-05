@@ -3,7 +3,7 @@
 Solve the following nonlinear differential equation:
 
 $$
-x^2 \, y''(x) + \left(x \, y'(x)\right)^2 + \frac{1}{\log x} = 0
+x^2  y''(x) + \left(x  y'(x)\right)^2 + \frac{1}{\log x} = 0
 $$
 
 subject to the initial conditions:
