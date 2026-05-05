@@ -194,9 +194,3 @@ plt.grid()
 plt.tight_layout()
 plt.savefig("Figure2_r.pdf", bbox_inches="tight")
 plt.show()
-
-# In[ ]:
-
-
-
-
