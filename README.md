@@ -1,4 +1,4 @@
-# Spectral Extreme Learning Machine 
+## Spectral Extreme Learning Machine 
 
 This repository contains reproducibility materials for the paper:
 
