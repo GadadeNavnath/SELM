@@ -50,7 +50,7 @@ The solution of the differential equations is obtained using a two-step procedur
 
 ### Data for Irregular Domains
 
-For Problems 4 and 5, the computational domains correspond to the Indian states of **Chhattisgarh** and **Haryana**.
+For Problems 4 and 5, the physical domains correspond to the Indian states of **Chhattisgarh** and **Haryana**.
 
 Preprocessed and rescaled geometry data is included in this repository to ensure full reproducibility without requiring external downloads or additional dependencies.
 
