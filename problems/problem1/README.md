@@ -1,3 +1,14 @@
+Problem 1. Solve the following non linear differential equation.
+
+$x^2 y'' + (xy')^2 +1 /(logx) = 0$
+ 
+$y(e) = 0$  and $y'(e) =1/e$
+
+The analytical solution is :  $y(x) = \log(\log(x))$
+
+
+
+
 # Problem 1: Nonlinear BVP (Spectral ELM)
 
 ## Files
