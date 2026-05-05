@@ -1,10 +1,24 @@
-Problem 1. Solve the following non linear differential equation.
+## Problem 1: Nonlinear Differential Equation
 
-$$x^2 y'' + (xy')^2 +1 /(logx) = 0$$
- 
-$y(e) = 0$  and $y'(e) =1/e$
+Solve the following nonlinear differential equation:
 
-The analytical solution is :  $y(x) = \log(\log(x))$
+$$
+x^2 \, y''(x) + \left(x \, y'(x)\right)^2 + \frac{1}{\log x} = 0
+$$
+
+subject to the initial conditions:
+
+$$
+y(e) = 0, \quad y'(e) = \frac{1}{e}
+$$
+
+### Analytical Solution
+
+The exact solution is given by:
+
+$$
+y(x) = \log\big(\log x\big)
+$$
 
 
 
