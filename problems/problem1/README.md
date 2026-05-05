@@ -1,6 +1,6 @@
 #### Problem 1: Nonlinear Differential Equation
 
-Solve the following nonlinear differential equation:
+Solve the following intital value problem:
 
 $$
 x^2 u'' + \left(x u'\right)^2 + \frac{1}{\log x} = 0
