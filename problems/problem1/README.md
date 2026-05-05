@@ -3,7 +3,7 @@
 Solve the following nonlinear differential equation:
 
 $$
-x^2 u''(x) + \left(x u'(x)\right)^2 + \frac{1}{\log x} = 0
+x^2 u'' + \left(x u'\right)^2 + \frac{1}{\log x} = 0
 $$
 
 subject to the initial conditions:
