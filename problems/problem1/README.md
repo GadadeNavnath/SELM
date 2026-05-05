@@ -17,12 +17,16 @@ The exact solution is given by:
 $$
 u(x) = \log\big(\log x\big)
 $$
+
+---
+
 #### Files
 
 * `main.py`
-  Solves the nonlinear initial value problem and computes the numerical solution, along with L∞ and RMS errors, and generates error and residual plots.
+  Solves the nonlinear initial value problem, computes the numerical solution, evaluates L∞ and RMS errors, and generates error and residual plots.
+
 * `RMS_error.py`
-  Computes RMS error versus the number of collocation points for varying numbers of basis functions.
+  Generates a plot of RMS error versus the number of collocation points for varying numbers of basis functions.
 
 ---
 
@@ -40,5 +44,5 @@ The code produces:
 * `Figure1_a.pdf` (used in paper)
 * `Figure1_b.pdf` (used in paper)
 * `Figure1_r.pdf` (used in paper)
-  
- Figures are saved in the `Figures/` folder.
+
+Figures are saved in the `Figures/` folder.
