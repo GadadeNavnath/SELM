@@ -2,21 +2,21 @@
 
 We consider the nonlinear differential equation:
 
-[
+$$
 x^2 u''(x) + \left(x u'(x)\right)^2 + \frac{1}{\log x} = 0
-]
+$$
 
 subject to the initial conditions:
 
-[
+$$
 u(e) = 0, \quad u'(e) = \frac{1}{e}
-]
+$$
 
 The exact solution is given by:
 
-[
+$$
 u(x) = \log\big(\log x\big)
-]
+$$
 
 
 
