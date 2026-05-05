@@ -16,7 +16,7 @@ This repository provides a Python implementation for solving differential equati
 
 The code is implemented in Python and requires the following packages:
 
-* Python 3.10+
+* Python 3.12+
 * numpy
 * matplotlib
 
