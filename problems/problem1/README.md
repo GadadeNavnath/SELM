@@ -1,4 +1,4 @@
-## Problem 1: Nonlinear Differential Equation
+#### Problem 1: Nonlinear Differential Equation
 
 We consider the nonlinear differential equation:
 
@@ -17,43 +17,6 @@ The exact solution is given by:
 $$
 u(x) = \log\big(\log x\big)
 $$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Problem 1: Nonlinear Differential Equation
-
-$$
-x^2 u" + \left(x u'\right)^2 + \frac{1}{\log x} = 0
-$$
-
-subject to the initial conditions:
-
-$$
-u(e) = 0, \quad u'(e) = \frac{1}{e}
-$$
-
-The exact solution is given by:
-
-$$
-u(x) = \log\big(\log x\big)
-$$
-
-
 
 # Problem 1: Nonlinear BVP (Spectral ELM)
 
