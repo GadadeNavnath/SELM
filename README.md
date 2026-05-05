@@ -1,6 +1,29 @@
-# Spectral Extreme Learning Machine (SELM)
+# Spectral Extreme Learning Machine 
 
-This repository contains a Python implementation of the Spectral Extreme Learning Machine (SELM) for solving nonlinear differential equations. The code is organized into seven benchmark problems, covering nonlinear ordinary differential equations, systems of nonlinear ODEs, and nonlinear partial differential equations on both regular and irregular domains, including a three-dimensional case.
+This repository contains reproducibility materials for the paper:
+
+**“Spectral Extreme Learning Machine”**
+**Authors:** Gadade Navnath Ankush and Sivaram Ambikasaran
+
+---
+
+This repository provides a Python implementation of the Spectral Extreme Learning Machine (SELM) for solving nonlinear differential equations. The code is organized into seven benchmark problems, covering nonlinear ordinary differential equations, systems of nonlinear ODEs, and nonlinear partial differential equations on both regular and irregular domains, including a three-dimensional case.
+
+---
+
+## Requirements
+
+The code is implemented in Python and requires the following packages:
+
+* Python 3.10+
+* numpy
+* matplotlib
+
+Install the dependencies using:
+
+```bash id="0n4a7o"
+pip install numpy matplotlib
+```
 
 ---
 
@@ -28,22 +51,20 @@ Each problem includes a separate README file describing the corresponding differ
 
 ## Data for Irregular Domains
 
-For the highly irregular domains considered in Problems 4 and 5, geometric data is obtained from the GADM dataset using the following source:
+For Problems 4 and 5, the computational domains correspond to the Indian states of **Chhattisgarh** and **Haryana**.
 
-```python
-url = "https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_IND_1.json"
-gdf = gpd.read_file(url)
+Preprocessed and rescaled geometry data is included in this repository to ensure full reproducibility without requiring external downloads or additional dependencies.
 
-geom_chhattisgarh = gdf[gdf["NAME_1"] == "Chhattisgarh"].geometry.values[0]
-geom_haryana = gdf[gdf["NAME_1"] == "Haryana"].geometry.values[0]
-```
+The original dataset is obtained from:
+https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_IND_1.json
 
-The geometries corresponding to the Indian states of **Chhattisgarh** and **Haryana** are extracted, rescaled to the computational domain, and stored for use in the numerical implementation. Preprocessed geometry data is stored locally to ensure reproducibility and avoid repeated downloads.
+---
+
 ## Repository Structure
 
-The repository is organized problem-wise, with each folder containing the corresponding implementation and documentation:
+The repository is organized problem-wise:
 
-```
+```id="r3l8cz"
 Problem1/
 Problem2/
 Problem3/
@@ -56,5 +77,15 @@ Problem7/
 Each problem folder includes:
 
 * Python scripts for implementation
-* Generated figures (stored in the `Figures/` folder)
+* Generated figures (stored in the `figures/` folder)
 * A dedicated README file explaining the problem setup and usage
+
+---
+
+## Reproducibility
+
+This repository provides all code and data required to reproduce the numerical results presented in the paper.
+
+Each problem folder contains scripts and instructions to reproduce the corresponding figures. All parameter settings are defined within the scripts.
+
+Running the provided codes will reproduce all figures and results reported in the paper.
