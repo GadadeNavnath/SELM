@@ -89,3 +89,6 @@ This repository provides all code and data required to reproduce the numerical r
 Each problem folder contains scripts and instructions to reproduce the corresponding figures. All parameter settings are defined within the scripts.
 
 Running the provided codes will reproduce all figures and results reported in the paper.
+## License
+
+This project is licensed under the MIT License.
