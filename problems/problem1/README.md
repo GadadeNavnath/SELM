@@ -3,13 +3,13 @@
 Solve the following nonlinear differential equation:
 
 $$
-x^2  y''(x) + \left(x  y'(x)\right)^2 + \frac{1}{\log x} = 0
+x^2 u''(x) + \left(x u'(x)\right)^2 + \frac{1}{\log x} = 0
 $$
 
 subject to the initial conditions:
 
 $$
-y(e) = 0, \quad y'(e) = \frac{1}{e}
+u(e) = 0, \quad u'(e) = \frac{1}{e}
 $$
 
 ### Analytical Solution
@@ -17,9 +17,8 @@ $$
 The exact solution is given by:
 
 $$
-y(x) = \log\big(\log x\big)
+u(x) = \log\big(\log x\big)
 $$
-
 
 
 
