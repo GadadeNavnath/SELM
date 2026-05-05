@@ -20,8 +20,7 @@ $$
 #### Files
 
 * `main.py`
-  Solves the nonlinear initial value problem and generates the solution, error, and residual plots.
-
+Solves the nonlinear initial value problem and computes the numerical solution, along with L∞ and RMS errors, and generates error and residual plots.
 * `RMS_error.py`
   Computes RMS error versus the number of collocation points for varying numbers of basis functions.
 
