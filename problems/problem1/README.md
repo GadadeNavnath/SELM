@@ -40,4 +40,4 @@ The code produces:
 * `Figure1_a.pdf` (used in paper)
 * `Figure1_b.pdf` (used in paper)
 * `Figure1_r.pdf` (used in paper)
-Figures are saved in the `Figures/` folder.
+ Figures are saved in the `Figures/` folder.
