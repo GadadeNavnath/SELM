@@ -77,7 +77,7 @@ Problem7/
 Each problem folder includes:
 
 * Python scripts for implementation
-* Generated figures (stored in the `figures/` folder)
+* Generated figures (stored in the `Figures/` folder)
 * A dedicated README file explaining the problem setup and usage
 
 ---
