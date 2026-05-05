@@ -17,23 +17,28 @@ The exact solution is given by:
 $$
 u(x) = \log\big(\log x\big)
 $$
+#### Files
 
-# Problem 1: Nonlinear BVP (Spectral ELM)
+* `main.py`
+  Solves the nonlinear initial value problem and generates the solution, error, and residual plots.
 
-## Files
+* `RMS_error.py`
+  Computes RMS error versus the number of collocation points for varying numbers of basis functions.
 
-- main_solver.ipynb  
-  Solves the nonlinear boundary value problem using spectral basis and Gauss–Newton iteration.
+---
 
-- convergence_study.ipynb  
-  Computes RMS error vs number of collocation points.
+#### How to run
 
-## How to run
+1. Run `main.py` to reproduce `Figure1_a` and `Figure1_r`.
+2. Run `RMS_error.py` to reproduce `Figure1_b`.
 
-1. Run `main_solver.ipynb` to compute solution.
-2. Run `convergence_study.ipynb` to reproduce Figure 1.
+---
 
-## Output
+#### Output
 
-- Figure1_b.pdf (used in paper)
-- Figure1_b.png (for preview)
+The code produces:
+
+* `Figure1_a.pdf` (used in paper)
+* `Figure1_b.pdf` (used in paper)
+* `Figure1_r.pdf` (used in paper)
+
