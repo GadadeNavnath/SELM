@@ -1,4 +1,4 @@
-## Problem 1: Nonlinear Differential Equation
+ Problem 1: Nonlinear Differential Equation
 
 Solve the following nonlinear differential equation:
 
