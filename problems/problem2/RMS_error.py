@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.polynomial.legendre import Legendre
@@ -276,10 +270,4 @@ plt.tight_layout()
 
 plt.savefig("Figure2_b2.pdf", bbox_inches="tight")
 plt.show()
-
-
-# In[ ]:
-
-
-
 
