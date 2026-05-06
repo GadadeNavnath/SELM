@@ -3,7 +3,7 @@
 We consider the nonlinear partial differential equation:
 
 $$
-u_{xx}(x,y) + u_{yy}(x,y) + u(x,y)\,u_y(x,y) = f(x,y),
+u_{xx} + u_{yy} + u\,u_y = f(x,y),
 \qquad (x,y)\in [0,1]^2
 $$
 
@@ -38,7 +38,7 @@ u(0,y)=0,
 u(1,y)=0,
 $$
 
-and the Neumann boundary condition:
+and
 
 $$
 u_y(x,1)=2\sin(\pi x).
