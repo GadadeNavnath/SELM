@@ -3,7 +3,7 @@
 We consider the nonlinear partial differential equation:
 
 $$
-u_{xx} + u_{yy} + u\,u_y = \sin(\pi x)\left(2 - \pi^2 y^2 + 2y^3\sin(\pi x)\right), \qquad (x,y)\in[0,1]^2
+u_{xx} + u_{yy} + uu_y = \sin(\pi x)\left(2 - \pi^2 y^2 + 2y^3\sin(\pi x)\right), \qquad (x,y)\in[0,1]^2
 $$
 
 The exact solution is given by:
