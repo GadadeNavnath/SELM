@@ -61,17 +61,17 @@ https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_IND_1.json
 
 ## Repository Structure
 
-The repository is organized using a main folder named `Problems`, which contains the following subfolders:
+The repository is organized using a main folder named `problems`, which contains the following subfolders:
 
 ```text
-Problems/
-├── Problem1/
-├── Problem2/
-├── Problem3/
-├── Problem4/
-├── Problem5/
-├── Problem6/
-└── Problem7/
+problems/
+├── problem1/
+├── problem2/
+├── problem3/
+├── problem4/
+├── problem5/
+├── problem6/
+└── problem7/
 ```
 
 Each problem folder includes:
