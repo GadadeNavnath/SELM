@@ -3,14 +3,7 @@
 We consider the nonlinear partial differential equation:
 
 $$
-u_{xx} + u_{yy} + u\,u_y = f(x,y),
-\qquad (x,y)\in [0,1]^2
-$$
-
-where
-
-$$
-f(x,y)
+u_{xx} + u_{yy} + u\,u_y
 =
 \sin(\pi x)
 \left[
@@ -19,7 +12,8 @@ f(x,y)
 \pi^2 y^2
 +
 2y^3 \sin(\pi x)
-\right].
+\right],
+\qquad (x,y)\in [0,1]^2
 $$
 
 The exact solution is given by:
@@ -49,7 +43,7 @@ $$
 #### Files
 
 * `main.py`  
-  Solves the nonlinear partial differential equation, computes the numerical solution, evaluates the $L^\infty$ and RMS errors, and generates solution, error, and residual plots.
+  Solves the nonlinear partial differential equation, computes the numerical solution, evaluates the $L_\infty$ and RMS errors, and generates solution, error, and residual plots.
 
 * `RMS_error.py`  
   Generates a plot of RMS error versus the total number of collocation points for varying numbers of basis functions.
@@ -73,3 +67,4 @@ The code produces:
 * `Figure3_r.pdf` (used in paper)
 
 Figures are saved in the `Figures/` folder.
+
