@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.polynomial.legendre import legval, legder
@@ -371,10 +365,3 @@ plt.tight_layout()
 plt.savefig("Figure3_c.pdf", bbox_inches="tight")
 
 plt.show()
-
-
-# In[ ]:
-
-
-
-
