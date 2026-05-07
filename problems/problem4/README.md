@@ -9,13 +9,7 @@ over an irregular physical domain corresponding to the Chhattisgarh state bounda
 The exact solution is given by:
 
 $$u(x,y)=e^{-x}(x+y^3).$$
-
-Dirichlet boundary conditions are imposed using the exact solution on the boundary of the domain.
-
-The physical geometry is generated using GeoPandas and Shapely libraries and rescaled to the physical domain $$[0,10]\times[0,10].$$
-
 ---
-
 #### Files
 
 ##### `main.py`
