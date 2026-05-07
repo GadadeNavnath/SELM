@@ -89,25 +89,3 @@ The `data/` folder contains:
 - datasets used for RMS error plot.
 
 All datasets are stored in NumPy `.npy` format.
-
----
-
-##### Python Requirements
-
-The codes were tested using Python 3.
-
-Required libraries:
-
-- numpy
-- matplotlib
-- geopandas
-- shapely
-
-Install dependencies using:
-
-```bash
-pip install numpy matplotlib geopandas shapely
-
-
-
-
