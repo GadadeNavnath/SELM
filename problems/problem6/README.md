@@ -3,7 +3,7 @@
 We consider the nonlinear elliptic partial differential equation
 
 $$
--u_{xx}-u_{yy}+u^3 = 2\pi^2\sin(\pi x)\sin(\pi y) + \left(\sin(\pi x)\sin(\pi y)\right)^3, $$
+-(u_{xx}+u_{yy})+u^3 = 2\pi^2\sin(\pi x)\sin(\pi y) + \left(\sin(\pi x)\sin(\pi y)\right)^3, $$
 
 over a star-shaped irregular domain.
 
