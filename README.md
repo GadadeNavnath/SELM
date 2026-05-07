@@ -1,4 +1,4 @@
-## Spectral Extreme Learning Machine
+### Spectral Extreme Learning Machine
 
 This repository contains reproducibility materials for the paper:
 
@@ -12,7 +12,7 @@ This repository provides a Python implementation for solving differential equati
 
 ---
 
-## Requirements
+### Requirements
 
 The code is implemented in Python and requires the following packages:
 
@@ -45,7 +45,7 @@ pip install numpy matplotlib geopandas shapely
 
 ---
 
-## Methodology
+### Methodology
 
 The solution of the differential equations is obtained using a two-step procedure based on the Legendre-IELM framework combined with a Gauss–Newton iteration. In the first step, an initial approximation is constructed by forming an overdetermined linear system using collocation points and basis functions, and solving it in the least-squares sense to obtain an initial coefficient vector. In the second step, the nonlinear problem is solved iteratively using a Gauss–Newton method: at each iteration, the residual and its Jacobian with respect to the coefficients are evaluated, a linear least-squares problem is solved to compute the update, and the coefficients are refined until the residual norm satisfies a prescribed tolerance or the maximum number of iterations is reached. For Problem 4 (linear PDE), the solution is obtained directly from the initial least-squares formulation, and no Gauss–Newton iteration is required.
 
@@ -62,7 +62,7 @@ https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_IND_1.json
 
 ---
 
-## Repository Structure
+### Repository Structure
 
 The repository is organized using a main folder named `problems`, which contains the following subfolders:
 
@@ -85,7 +85,7 @@ Each problem folder includes:
 
 ---
 
-## Reproducibility
+### Reproducibility
 
 This repository provides all code and data required to reproduce the numerical results presented in the paper.
 
