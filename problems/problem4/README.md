@@ -2,24 +2,17 @@
 
 We consider the elliptic partial differential equation:
 
-\[
-u_{xx} + u_{yy}
-=
-e^{-x}\left(x - 2 + y^3 + 6y\right),
-\qquad (x,y)\in\Omega,
-\]
+$$u_{xx} + u_{yy} = e^{-x}(x - 2 + y^3 + 6y), \qquad (x,y)\in\Omega,$$
 
-where \(\Omega\) is an irregular computational domain corresponding to the Chhattisgarh state boundary.
+where \(\Omega\) is an irregular physical domain corresponding to the Chhattisgarh state boundary.
 
 The exact solution is given by:
 
-\[
-u(x,y)=e^{-x}(x+y^3).
-\]
+$$u(x,y)=e^{-x}(x+y^3).$$
 
 Dirichlet boundary conditions are imposed using the exact solution on the boundary of the domain.
 
-The computational geometry is generated using GeoPandas and Shapely libraries and rescaled to the computational domain \([0,10]\times[0,10]\).
+The physical geometry is generated using GeoPandas and Shapely libraries and rescaled to the physical domain $$[0,10]\times[0,10].$$
 
 ---
 
@@ -27,7 +20,7 @@ The computational geometry is generated using GeoPandas and Shapely libraries an
 
 ## `main.py`
 
-Solves the elliptic partial differential equation on the irregular domain, computes the numerical solution, evaluates the \(L_\infty\) and RMS errors, and generates solution, error, and residual plots.
+Solves the elliptic partial differential equation on the irregular domain, computes the numerical solution, evaluates the $$L_\infty$$ and RMS errors, and generates solution, error, and residual plots.
 
 ---
 
@@ -114,5 +107,9 @@ Required libraries:
 
 Install dependencies using:
 
-```bash id="98u2rd"
+```bash
 pip install numpy matplotlib geopandas shapely
+
+
+
+
