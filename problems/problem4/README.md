@@ -2,9 +2,9 @@
 
 We consider the elliptic partial differential equation:
 
-$$u_{xx} + u_{yy} = e^{-x}(x - 2 + y^3 + 6y), \qquad (x,y)\in\Omega,$$
+$$u_{xx} + u_{yy} = e^{-x}(x - 2 + y^3 + 6y), $$
 
-where \(\Omega\) is an irregular physical domain corresponding to the Chhattisgarh state boundary.
+over an irregular physical domain corresponding to the Chhattisgarh state boundary.
 
 The exact solution is given by:
 
