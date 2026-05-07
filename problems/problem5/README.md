@@ -37,7 +37,7 @@ The generated test datasets are stored in the `data/` folder.
 
 ##### `main.py`
 
-Solves the nonlinear elliptic partial differential equation on the irregular domain using Newton iteration, computes the numerical solution, evaluates the $L_\infty$ and RMS errors, and reproduces:
+Solves the nonlinear elliptic partial differential equation on the irregular domain, computes the numerical solution, evaluates the $L_\infty$ and RMS errors, and reproduces:
 
 - `Figure5_b.pdf`
 - `Figure5_r.pdf`
