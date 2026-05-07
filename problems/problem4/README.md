@@ -1,4 +1,4 @@
-### Problem 4: Elliptic Partial Differential Equation on an Irregular Domain
+#### Problem 4: Elliptic Partial Differential Equation on an Irregular Domain
 
 We consider the elliptic partial differential equation:
 
@@ -6,9 +6,7 @@ $$u_{xx} + u_{yy} = e^{-x}(x - 2 + y^3 + 6y), $$
 
 over an irregular physical domain corresponding to the Chhattisgarh state boundary.
 
-The exact solution is given by:
-
-$$u(x,y)=e^{-x}(x+y^3).$$
+The exact solution is given by: $$ u(x,y)=e^{-x}(x+y^3) $$.
 ---
 #### Files
 
