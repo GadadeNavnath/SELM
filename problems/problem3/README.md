@@ -56,5 +56,5 @@ The code produces:
 * `Figure3_c.pdf` (used in paper)
 * `Figure3_r.pdf` (used in paper)
 
-Figures are saved in the `Figures/` folder.
+Generated figures are provided in the `Figures/` folder.
 
