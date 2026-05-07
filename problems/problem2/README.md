@@ -52,4 +52,4 @@ The code produces:
 * `Figure2_b2.pdf` (used in paper)
 * `Figure2_r.pdf` (used in paper)
 
-Figures are saved in the `Figures/` folder.
+Generated figures are provided in the `Figures/` folder.
