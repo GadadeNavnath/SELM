@@ -72,7 +72,7 @@ Reproduces:
 
 - `Figure4_s.pdf`
 
----
+This script loads the training datasets from the `data/` folder.
 
 #### Recommended execution order
 
