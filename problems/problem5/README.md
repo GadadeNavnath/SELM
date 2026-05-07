@@ -3,8 +3,7 @@
 We consider the nonlinear elliptic partial differential equation
 
 $$
-u_{xx} + u_{yy} + e^{u}
-=
+u_{xx} + u_{yy} + e^{u} =
 1 + x^2 + y^2
 + \frac{4}{(1+x^2+y^2)^2},
 $$
