@@ -77,7 +77,7 @@ The code produces:
 - `Figure4_c.pdf` (used in paper)
 - `Figure4_s.pdf` (used in paper)
 
-Figures are saved in the `Figures/` folder.
+Generated figures are provided in the `Figures/` folder.
 
 ---
 
