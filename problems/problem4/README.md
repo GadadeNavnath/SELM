@@ -38,7 +38,8 @@ Constructs the irregular physical domain corresponding to the Chhattisgarh state
 
 #### `spectral_convergence.py`
 
-Generates a plot of RMS error versus the number of basis functions per direction and demonstrates spectral (exponential) convergence.
+Constructs a plot of RMS error versus the number of basis functions per direction and demonstrates spectral (exponential) convergence.
+
 ---
 
 #### `test_data_creation.py`
@@ -49,15 +50,21 @@ Generates additional test collocation datasets used for numerical validation.
 
 #### How to run
 
-Run `main.py` to reproduce:
+Run `domain.py` to reproduce:
 
 - `Figure4_a.pdf`
+
+Run `main.py` to reproduce:
+
 - `Figure4_b.pdf`
-- `Figure4_s.pdf`
 
 Run `RMS_error.py` to reproduce:
 
 - `Figure4_c.pdf`
+
+Run `spectral_convergence.py` to reproduce:
+
+- `Figure4_s.pdf`
 
 ---
 
@@ -77,9 +84,9 @@ Figures are saved in the `Figures/` folder.
 #### Data
 
 The `data/` folder contains:
-- interior collocation points,
-- boundary collocation points,
-- datasets used for RMS error and convergence studies.
+- trainging collocation points,
+- test collocation points,
+- datasets used for RMS error plot.
 
 All datasets are stored in NumPy `.npy` format.
 
