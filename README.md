@@ -12,7 +12,7 @@ This repository provides a Python implementation for solving differential equati
 
 ---
 
-### Requirements
+#### Requirements
 
 The code is implemented in Python and requires the following packages:
 
@@ -20,16 +20,18 @@ The code is implemented in Python and requires the following packages:
 - numpy
 - matplotlib
 
+Problems 4, 5, and 6 additionally require:
+
+- shapely
+
 Problems 4 and 5 additionally require:
 
 - geopandas
-- shapely
 
 Install the dependencies using:
 
 ```bash
-pip install numpy matplotlib geopandas shapely
----
+pip install numpy matplotlib shapely geopandas
 
 ## Problem Overview
 
