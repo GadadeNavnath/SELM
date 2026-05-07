@@ -16,16 +16,19 @@ This repository provides a Python implementation for solving differential equati
 
 The code is implemented in Python and requires the following packages:
 
-* Python 3.12+
-* numpy
-* matplotlib
+- Python 3.12+
+- numpy
+- matplotlib
+
+Problems 4 and 5 additionally require:
+
+- geopandas
+- shapely
 
 Install the dependencies using:
 
-```bash id="4p7o0k"
-pip install numpy matplotlib
-```
-
+```bash
+pip install numpy matplotlib geopandas shapely
 ---
 
 ## Problem Overview
