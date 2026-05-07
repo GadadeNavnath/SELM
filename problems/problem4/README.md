@@ -12,7 +12,7 @@ The exact solution is given by: $$u(x,y)=e^{-x}(x+y^3).$$
 
 ##### `main.py`
 
-Solves the elliptic partial differential equation on the irregular domain, computes the numerical solution, evaluates the $$L_\infty$$ and RMS errors, and generates solution, error, and residual plots.
+Solves the elliptic partial differential equation on the irregular domain, computes the numerical solution, evaluates the $$L_\infty$$ and RMS test errors, and test plots.
 
 ---
 
@@ -32,14 +32,13 @@ The generated datasets are stored in the `data/` folder.
 
 #### `domain.py`
 
-Constructs the irregular computational domain corresponding to the Chhattisgarh state geometry.
+Constructs the irregular physical domain corresponding to the Chhattisgarh state geometry.
 
 ---
 
 #### `spectral_convergence.py`
 
-Performs the spectral convergence study with increasing numbers of basis functions.
-
+Generates a plot of RMS error versus the number of basis functions per direction and demonstrates spectral (exponential) convergence.
 ---
 
 #### `test_data_creation.py`
