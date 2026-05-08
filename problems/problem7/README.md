@@ -18,16 +18,10 @@ r \in [0.5,1],
 \phi \in [0,\pi/2].
 $$
 
-However, the problem is solved using Cartesian coordinates
-$(x,y,z)$.
-
 The exact solution is given by
 
 $$
-u(x,y,z)
-=
-e^x y^2 + (z^2 + 2)\sin(y).
-$$
+u(x,y,z) = e^x y^2 + (z^2 + 2)\sin(y).$$
 
 ---
 
