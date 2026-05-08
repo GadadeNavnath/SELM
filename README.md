@@ -58,14 +58,14 @@ pip install numpy matplotlib shapely geopandas scipy
 The solution of the differential equations is obtained using a two-step procedure based on the Legendre-IELM framework combined with a Gauss–Newton iteration. In the first step, an initial approximation is constructed by forming an overdetermined linear system using collocation points and basis functions, and solving it in the least-squares sense to obtain an initial coefficient vector. In the second step, the nonlinear problem is solved iteratively using a Gauss–Newton method: at each iteration, the residual and its Jacobian with respect to the coefficients are evaluated, a linear least-squares problem is solved to compute the update, and the coefficients are refined until the residual norm satisfies a prescribed tolerance or the maximum number of iterations is reached. For Problem 4 (linear PDE), the solution is obtained directly from the initial least-squares formulation, and no Gauss–Newton iteration is required.
 
 ---
-
 ### Data for Irregular Domains
 
 For Problems 4 and 5, the physical domains correspond to the Indian states of **Chhattisgarh** and **Haryana**.
 
-Preprocessed and rescaled geometry data is included in this repository to ensure full reproducibility without requiring external downloads or additional dependencies.
+The repository includes the preprocessing scripts required to generate the geometry datasets and collocation points used in the computations. Generated datasets are stored in the `data/` folder.
 
-The original dataset is obtained from:
+Preprocessed and rescaled geometry information is based on the original dataset obtained from:
+
 https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_IND_1.json
 
 ---
