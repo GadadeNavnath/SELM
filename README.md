@@ -107,16 +107,3 @@ Each problem folder contains the implementation scripts, dataset generation code
 
 This project is licensed under the MIT License.
 
-### Clone Repository
-
-Clone the repository using:
-
-```bash
-git clone <https://github.com/GadadeNavnath/Spectral-Extreme-Learning-Machine>
-```
-
-Then move into the repository folder:
-
-```bash
-cd <repository-folder>
-```
