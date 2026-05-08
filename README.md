@@ -83,13 +83,14 @@ problems/
 ├── problem5/
 ├── problem6/
 └── problem7/
+```
 
 Each problem folder includes:
 
-* Python scripts for implementation
-* Generated figures (stored in the `Figures/` folder)
-* Generated datasets (stored in the `data/` folder whenever required)
-* A dedicated README file describing the mathematical problem, required execution order, dataset generation, and instructions for running the codes
+- Python scripts for implementation
+- Generated figures (stored in the `Figures/` folder)
+- Generated datasets (stored in the `data/` folder whenever required)
+- A dedicated README file describing the mathematical problem, required execution order, dataset generation, and instructions for running the codes
 
 ---
 
