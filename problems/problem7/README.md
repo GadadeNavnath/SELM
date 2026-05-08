@@ -1,6 +1,6 @@
 #### Problem 7: Three-Dimensional Nonlinear Partial Differential Equation on a Spherical Shell Domain
 
-We consider the three-dimensional nonlinear partial differential equation \cite{McFall2009}
+We consider the three-dimensional nonlinear partial differential equation
 
 $$
 u_{xx} + u_{yy} + u_{zz} - u^2 = (2 + y^2)e^x - z^2 \sin(y) -\left[e^x y^2 + (z^2 + 2)\sin(y)\right]^2, $$
