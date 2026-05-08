@@ -12,26 +12,26 @@ This repository provides a Python implementation for solving differential equati
 
 ---
 
-#### Requirements
-
+Requirements
 The code is implemented in Python and requires the following packages:
 
-- Python 3.12+
-- numpy
-- matplotlib
+Python 3.12+
+numpy
+matplotlib
 
 Problems 4, 5, and 6 additionally require:
 
-- shapely
+shapely
 
 Problems 4 and 5 additionally require:
 
-- geopandas
+geopandas
+
+Problem 7 additionally requires:
+
+scipy
 
 Install the dependencies using:
-
-```bash
-pip install numpy matplotlib shapely geopandas
 
 ## Problem Overview
 
