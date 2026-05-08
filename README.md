@@ -74,7 +74,6 @@ https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_IND_1.json
 
 The repository is organized using a main folder named `problems`, which contains the following subfolders:
 
-```text
 problems/
 ├── problem1/
 ├── problem2/
@@ -83,13 +82,13 @@ problems/
 ├── problem5/
 ├── problem6/
 └── problem7/
-```
 
 Each problem folder includes:
 
 * Python scripts for implementation
 * Generated figures (stored in the `Figures/` folder)
-* A dedicated README file explaining the problem setup and usage
+* Generated datasets (stored in the `data/` folder whenever required)
+* A dedicated README file describing the mathematical problem, required execution order, dataset generation, and instructions for running the codes
 
 ---
 
