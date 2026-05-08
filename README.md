@@ -98,9 +98,7 @@ Each problem folder includes:
 
 This repository provides all code and data required to reproduce the numerical results presented in the paper.
 
-Each problem folder contains scripts and instructions to reproduce the corresponding figures. All parameter settings are defined within the scripts.
-
-Running the provided codes will reproduce all figures and results reported in the paper.
+Each problem folder contains the implementation scripts, dataset generation codes, and execution instructions corresponding to that problem. All parameter settings are defined directly within the scripts.
 
 ---
 
