@@ -36,6 +36,9 @@ Problem 7 additionally requires:
 
 scipy
 
+Install the required packages using:
+
+pip install numpy matplotlib shapely geopandas scipy
 ## Problem Overview
 
 | Problem   | Type           | Equation Class | Domain    |
