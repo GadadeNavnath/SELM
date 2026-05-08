@@ -112,7 +112,7 @@ This project is licensed under the MIT License.
 Clone the repository using:
 
 ```bash
-git clone <(https://github.com/GadadeNavnath/Spectral-Extreme-Learning-Machine)>
+git clone <https://github.com/GadadeNavnath/Spectral-Extreme-Learning-Machine>
 ```
 
 Then move into the repository folder:
