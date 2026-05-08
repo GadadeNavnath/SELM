@@ -88,9 +88,9 @@ problems/
 Each problem folder includes:
 
 - Python scripts for implementation
-- Generated figures (stored in the `Figures/` folder)
-- Generated datasets (stored in the `data/` folder whenever required)
+- A `data/` folder in which datasets are automatically generated and stored after running the corresponding scripts
 - A dedicated README file describing the mathematical problem, required execution order, dataset generation, and instructions for running the codes
+- Figures used in the paper are provided separately in the `Figures/` folder
 
 ---
 
