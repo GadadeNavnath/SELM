@@ -36,8 +36,6 @@ Problem 7 additionally requires:
 
 scipy
 
-Install the dependencies using:
-
 ## Problem Overview
 
 | Problem   | Type           | Equation Class | Domain    |
