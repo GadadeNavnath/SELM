@@ -1,14 +1,14 @@
 ### Spectral Extreme Learning Machine
 
-This repository contains reproducibility materials for the paper:
+This repository contains reproducibility materials for the manuscript:
 
-**Title:** **“Spectral Extreme Learning Machine”**
+**Title:** “Spectral Extreme Learning Machine”
 
 **Authors:** Gadade Navnath Ankush and Sivaram Ambikasaran
 
 ---
 
-This repository provides Python implementations for solving differential equations. The code is organized into seven benchmark problems, covering nonlinear ordinary differential equations, systems of nonlinear ODEs, and partial differential equations on both regular and irregular domains, including a three-dimensional case.
+This repository provides Python implementations for solving differential equations. The code is organized into seven benchmark problems, covering nonlinear ordinary differential equations, systems of nonlinear ODEs, and partial differential equations on both regular and irregular domains, including a three-dimensional example.
 
 ---
 
