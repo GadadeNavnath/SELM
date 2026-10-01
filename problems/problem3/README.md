@@ -33,7 +33,10 @@ $$
 #### Files
 
 * `main.py`  
-  Solves the nonlinear partial differential equation, computes the numerical solution, evaluates the $L_\infty$ and RMS errors, and generates solution, error, and residual plots.
+  Solves the nonlinear partial differential equation using the Legendre-MELM method, computes the numerical solution, evaluates the $L_\infty$ and RMS errors, and generates solution, error, and residual plots.
+
+* `main1.py`  
+  Computes the PIELM results for comparison.
 
 * `RMS_error.py`  
   Generates a plot of RMS error versus the total number of collocation points for varying numbers of basis functions.
@@ -43,7 +46,8 @@ $$
 #### How to run
 
 1. Run `main.py` to reproduce `Figure3_a`, `Figure3_b`, and `Figure3_r`.
-2. Run `RMS_error.py` to reproduce `Figure3_c`.
+2. Run `main1.py` to obtain the PIELM results.
+3. Run `RMS_error.py` to reproduce `Figure3_c`.
 
 ---
 
