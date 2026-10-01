@@ -44,6 +44,8 @@ Solves the elliptic partial differential equation on the irregular domain using 
 
 This script loads the training and test datasets from the `data/` folder.
 
+---
+
 ##### `main1.py`
 
 Computes the PIELM results for comparison using the training and test datasets from the `data/` folder.
