@@ -8,7 +8,7 @@ This repository contains reproducibility materials for the manuscript:
 
 ---
 
-This repository provides Python implementations for solving differential equations. The code is organized into seven benchmark problems, covering nonlinear ordinary differential equations, systems of nonlinear ODEs, and partial differential equations on both regular and irregular domains, including a three-dimensional example.
+This repository provides Python implementations for solving differential equations. The code is organized into eight benchmark problems, covering nonlinear ordinary differential equations, systems of nonlinear ODEs, and partial differential equations on both regular and irregular domains, including a three-dimensional example.
 
 ---
 
