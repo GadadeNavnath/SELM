@@ -42,7 +42,6 @@ $$
 1. Run `main.py` to reproduce `Figure2_a` and `Figure2_r`.
 2. Run `main1.py` to obtain the PIELM results.
 3. Run `RMS_error.py` to reproduce `Figure2_b1` and `Figure2_b2`.
----
 
 #### Output
 
