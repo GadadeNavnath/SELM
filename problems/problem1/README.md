@@ -23,19 +23,19 @@ $$
 #### Files
 
 * `main.py`
-  Solves the nonlinear initial value problem, computes the numerical solution, evaluates L∞ and RMS errors, and generates error and residual plots.
+  Solves the nonlinear initial value problem using the proposed Legendre-MELM method, computes the numerical solution, evaluates L∞ and RMS errors, and generates error and residual plots.
+
+* `main1.py`
+  Solves the same nonlinear initial value problem using PIELM for comparison and computes the corresponding numerical errors.
 
 * `RMS_error.py`
   Generates a plot of RMS error versus the number of collocation points for varying numbers of basis functions.
 
----
-
 #### How to run
 
-1. Run `main.py` to reproduce `Figure1_a` and `Figure1_r`.
-2. Run `RMS_error.py` to reproduce `Figure1_b`.
-
----
+1. Run `main.py` to reproduce `Figure1_a` and `Figure1_r` for Legendre-MELM.
+2. Run `main1.py` to obtain the PIELM results for comparison.
+3. Run `RMS_error.py` to reproduce `Figure1_b`.
 
 #### Output
 
