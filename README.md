@@ -16,25 +16,12 @@ This repository provides Python implementations for solving differential equatio
 
 The code is implemented in Python and requires the following packages:
 
-Python 3.12 or later
-
-numpy
-
-matplotlib
-
-Problems 4 and 5 additionally require:
-
-shapely
-
-geopandas
-
-Problem 6 additionally requires:
-
-shapely
-
-Problem 7 additionally requires:
-
-scipy
+- Python 3.12 or later
+- numpy
+- matplotlib
+- shapely
+- geopandas
+- scipy
 
 Install the required packages using:
 
@@ -50,7 +37,8 @@ pip install numpy matplotlib shapely geopandas scipy
 | Problem 4 | PDE            | Linear         | Irregular |
 | Problem 5 | PDE            | Nonlinear      | Irregular |
 | Problem 6 | PDE            | Nonlinear      | Irregular |
-| Problem 7 | PDE (3D)       | Nonlinear      | Irregular |
+| Problem 7 | PDE            | Nonlinear      | Regular   |
+| Problem 8 | PDE (3D)       | Nonlinear      | Irregular |
 
 ---
 
