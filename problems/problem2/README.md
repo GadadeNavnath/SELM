@@ -29,18 +29,19 @@ $$
 #### Files
 
 * `main.py`
-  Solves the coupled nonlinear differential system, computes the numerical solutions, evaluates the $L_\infty$ and RMS errors, and generates error and residual plots.
+  Solves the coupled nonlinear differential system using the Legendre-MELM method, computes the numerical solutions, evaluates the $L_\infty$ and RMS errors, and generates error and residual plots.
+
+* `main1.py`
+  Computes the PIELM results for comparison.
 
 * `RMS_error.py`
   Generates plots of RMS error versus the number of collocation points for varying numbers of basis functions.
 
----
-
 #### How to run
 
-1. Run `main.py` to reproduce `Figure2_a` and  `Figure2_r`.
-2. Run `RMS_error.py` to reproduce `Figure2_b1` and `Figure2_b2`.
-
+1. Run `main.py` to reproduce `Figure2_a` and `Figure2_r`.
+2. Run `main1.py` to obtain the PIELM results.
+3. Run `RMS_error.py` to reproduce `Figure2_b1` and `Figure2_b2`.
 ---
 
 #### Output
