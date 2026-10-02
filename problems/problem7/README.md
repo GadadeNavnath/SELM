@@ -39,9 +39,9 @@ The value of $\lambda$ corresponds to the critical parameter of the two-dimensio
 
 #### How to run
 
-1. Run `main.ipynb` to reproduce `Figure7_a`, `Figure7_b`, and `Figure7_r`.
-2. Run `main1.ipynb` to obtain the PIELM results.
-3. Run `P2_FEM.ipynb` to generate the FEM reference solution, if required.
+1. Run `P2_FEM.ipynb` to generate the FEM reference solution, if required.
+2. Run `main.ipynb` to reproduce `Figure7_a`, `Figure7_b`, and `Figure7_r`.
+3. Run `main1.ipynb` to obtain the PIELM results.
 
 ---
 
@@ -54,4 +54,4 @@ The code produces:
 * `Figure7_r.pdf` (used in paper)
 
 Generated figures are provided in the `Figures/` folder.
-"""
+
