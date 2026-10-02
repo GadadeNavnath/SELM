@@ -31,7 +31,7 @@ u(x,y,z) = e^x y^2 + (z^2 + 2)\sin(y).$$
 
 Constructs the spherical shell domain, generates the training collocation datasets, and reproduces:
 
-- `Figure7_a.pdf`
+- `Figure8_a.pdf`
 
 The generated training datasets are stored in the `data/` folder.
 
@@ -49,8 +49,8 @@ The generated test datasets are stored in the `data/` folder.
 
 Solves the three-dimensional nonlinear partial differential equation on the spherical shell domain, computes the numerical solution, evaluates the $L_\infty$ and RMS errors, and reproduces:
 
-- `Figure7_b.pdf`
-- `Figure7_r.pdf`
+- `Figure8_b.pdf`
+- `Figure8_r.pdf`
 
 This script loads the training and test datasets from the `data/` folder.
 
@@ -73,7 +73,7 @@ The generated datasets are stored in the `data/` folder.
 
 Generates a plot of RMS error versus the total number of collocation points for varying numbers of basis functions, and reproduces:
 
-- `Figure7_c.pdf`
+- `Figure8_c.pdf`
 
 This script loads the RMS error datasets from the `data/` folder.
 
@@ -94,10 +94,10 @@ This script loads the RMS error datasets from the `data/` folder.
 
 The code produces:
 
-- `Figure7_a.pdf` (used in paper)
-- `Figure7_b.pdf` (used in paper)
-- `Figure7_c.pdf` (used in paper)
-- `Figure7_r.pdf` (used in paper)
+- `Figure8_a.pdf` (used in paper)
+- `Figure8_b.pdf` (used in paper)
+- `Figure8_c.pdf` (used in paper)
+- `Figure8_r.pdf` (used in paper)
 
 Generated figures are provided in the `Figures/` folder.
 
