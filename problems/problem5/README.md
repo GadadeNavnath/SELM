@@ -45,6 +45,9 @@ Solves the nonlinear elliptic partial differential equation on the irregular dom
 This script loads the training and test datasets from the `data/` folder.
 
 ---
+##### `main1.py`
+
+Computes the PIELM results for comparison using the training and test datasets from the `data/` folder.
 
 ##### `RMS_error_data_creation.py`
 
@@ -80,8 +83,9 @@ This script loads the training datasets from the `data/` folder.
 2. Run `test_data_creation.py`
 3. Run `RMS_error_data_creation.py`
 4. Run `main.py`
-5. Run `RMS_error.py`
-6. Run `spectral_convergence.py`
+5. Run `main1.py`
+6. Run `RMS_error.py`
+7. Run `spectral_convergence.py`
 
 ---
 
