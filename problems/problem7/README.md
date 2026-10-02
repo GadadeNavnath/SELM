@@ -1,4 +1,4 @@
-#### Porblem 7: We consider the nonlinear Bratu problem:
+#### Problem 7: We consider the nonlinear Bratu problem:
 
 $$
 u_{xx} + u_{yy} + \lambda e^u = 0,
