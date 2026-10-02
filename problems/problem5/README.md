@@ -49,6 +49,8 @@ This script loads the training and test datasets from the `data/` folder.
 
 Computes the PIELM results for comparison using the training and test datasets from the `data/` folder.
 
+---
+
 ##### `RMS_error_data_creation.py`
 
 Generates multiple interior and boundary collocation datasets used in the RMS error study.
